@@ -1,0 +1,6 @@
+---
+- hosts: all
+  become: sudo
+  tasks:
+  - name: test the host
+    ping:
